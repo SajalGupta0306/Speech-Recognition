@@ -124,7 +124,7 @@ pyobjc-framework-VideoToolbox==5.2
 pyobjc-framework-Vision==5.2
 pyobjc-framework-WebKit==5.2
 python-dateutil==2.8.0
-python-engineio==3.8.1
+python-engineio==3.8.2.post1
 python-socketio==4.1.0
 pyttsx3==2.71
 requests==2.22.0
