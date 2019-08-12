@@ -45,6 +45,7 @@ speak('How may I help you?')
 def myCommand():
     r = sr.Recognizer()
     with sr.Microphone() as source:
+        r.adjust_for_ambient_noise(source)
         print("Please say")
         print ('Listening...')
         r.pause_threshold=1
